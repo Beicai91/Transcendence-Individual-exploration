@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="biewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Signup</title>
+        <link href="output.css" rel="stylesheet">
+    </head>
+    <body class="flex items-center justify-center h-screen bg-gray-100">
+        <div class="w-full max-w-md p-6 bg-white rounded-lg shadow-md">
+
+            <h2 class="text-2xl font-semibold text-center text-gray-700">Signup</h2>
+
+            <form id="signupForm" class="mt-6">
+                <div>
+                    <lable for="username" class="block text-sm font-medium text-gray-700">Username</lable>
+                    <input type="username" id="usrNmSignUp" class="mt-1 block w-full px-3 py-2 border rounded-md focus:ring focus:ring-indigo-300 outline-none" required>
+                </div>
+
+                <div class="mt-4">
+                    <lable for="password" class="block text-sm font-medium text-gray-700">Password</lable>
+                    <input type="password" id="passSignUp" class="mt-1 block w-full px-3 py-2 border rounded-md focus:ring focus:ring-indigo-300 outline-none" required>
+                </div>
+
+                <button type="submit" id="signupBtn" class="w-full mt-6 bg-indigo-600 text-white py-2 rounded-md hover:bg-indigo-700 transition">Signup</button>
+
+                <p id="errSignUp" class="mt-4 text-red-500 text-sm text-center hidden">Invalid username or password.</p>
+            </form>
+
+        </div>
+
+        <script src="signup.js"></script>
+    </body>
+</html>

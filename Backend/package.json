@@ -1,0 +1,21 @@
+{
+  "name": "loginpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@fastify/static": "5.0.0",
+    "fastify": "3.29.5",
+    "fastify-plugin": "5.0.1",
+    "sqlite": "5.1.1",
+    "sqlite3": "5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
